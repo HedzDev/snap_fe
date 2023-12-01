@@ -36,7 +36,7 @@ export default function SnapScreen() {
       type: 'image.jpeg',
     });
 
-    fetch('http://10.75.11.111:6000/upload', {
+    fetch('https://snap-be.vercel.app/upload', {
       method: 'POST',
       body: formData,
     })
